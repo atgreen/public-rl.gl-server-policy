@@ -1,1 +1,49 @@
 # This file describes expected failres (aka the 'allow list')
+
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Disable SSH Root Login", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Set SSH Idle Timeout Interval", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Set SSH Client Alive Count Max", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Set Default firewalld Zone for Incoming Packets", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Verify firewalld Enabled", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Disable Kernel Support for USB via Bootloader Configuration", "severity": "unknown" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Verify that System Executables Have Root Ownership", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Enable Auditing for Processes Which Start Prior to the Audit Daemon", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Configure auditd admin_space_left Action on Low Disk Space", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Configure auditd to use audispd's syslog plugin", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Configure auditd space_left Action on Low Disk Space", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Ensure auditd Collects Information on Exporting to Media (successful)", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify User/Group Information", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Ensure auditd Collects System Administrator Actions", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Mandatory Access Controls", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Attempts to Alter Process and Session Initiation Information", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Make the auditd Configuration Immutable", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Network Environment", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - lchown", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - fsetxattr", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - fchownat", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - chmod", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - chown", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - removexattr", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - lsetxattr", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - fchmod", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - fchown", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - setxattr", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - fchmodat", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - fremovexattr", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Events that Modify the System's Discretionary Access Controls - lremovexattr", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Ensure auditd Collects File Deletion Events by User", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Attempts to Alter Logon and Logout Events", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Ensure auditd Collects Information on Kernel Module Loading and Unloading", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Attempts to Alter Time Through clock_settime", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Attempts to Alter Time Through stime", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record attempts to alter time through settimeofday", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record attempts to alter time through adjtimex", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Record Attempts to Alter the localtime File", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Ensure auditd Collects Unauthorized Access Attempts to Files (unsuccessful)", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Ensure auditd Collects Information on the Use of Privileged Commands", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Direct root Logins Not Allowed", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Set Password Minimum Length in login.defs", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Set Password Minimum Age", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Set Password Maximum Age", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Configure OpenSSL library to use System Crypto Policy", "severity": "medium" }
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Build and Test AIDE Database", "severity": "medium" }
