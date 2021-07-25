@@ -1,10 +1,14 @@
 # This file describes expected failres (aka the 'allow list')
 
+# ------------------------------------------------------------------------------------
+# k3s requires iptables-legacy.  We don't use firewalld.
+{ "report": "oscap-xccdf", "result": "FAIL", "id": "Verify firewalld Enabled", "severity": "medium" }
+
+# ------------------------------------------------------------------------------------
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Disable SSH Root Login", "severity": "medium" }
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Set SSH Idle Timeout Interval", "severity": "medium" }
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Set SSH Client Alive Count Max", "severity": "medium" }
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Set Default firewalld Zone for Incoming Packets", "severity": "medium" }
-{ "report": "oscap-xccdf", "result": "FAIL", "id": "Verify firewalld Enabled", "severity": "medium" }
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Disable Kernel Support for USB via Bootloader Configuration", "severity": "unknown" }
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Verify that System Executables Have Root Ownership", "severity": "medium" }
 { "report": "oscap-xccdf", "result": "FAIL", "id": "Enable Auditing for Processes Which Start Prior to the Audit Daemon", "severity": "medium" }
